@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="card">
+        <div class="serch">
+            <input class="serchbox" type="text" placeholder="your city's name " spellcheck="false" >
+            <button id="btnn"><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="heding">
+            <img src="images/rain.png" alt="" class="icon">
+            <div class="tempr">
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">Bangalore</h2>
+            </div>
+            <div id="details">
+                <div id="humidity">
+                    <img src="images/humidity.png" alt="">
+                    <div class="windDetails">
+                    <h3 class="humidity">54%</h3>
+                    <p>humidity</p>
+                    </div>
+                </div>
+                
+                <div id="wind">
+                    <img src="images/wind.png" alt="">
+                    <div class="windDetails">
+                    <h3 class="wind">54<span>km/h</span></h3>
+                    <p>wind speed</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    
+    <script src="weather.js"></script>
+</body>
+</html>
